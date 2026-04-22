@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>A read on where AI actually fits in Titl's stack</title>
+<meta name="description" content="You closed the seed in January, you're on Polymesh with Gemini and OpenAI both in the pipeline, and you're going state-by-state from Florida to Georgia, Maryland, Connecticut." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <img src="logo.png" alt="Titl" class="brand-logo" />
+      <span class="prep-tag">Prepared for the team at titl.co</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="persona-chip">For Titl's engineering and capital-markets leads</div>
+        <h1 class="hero-title">
+          <span class="title-dark">A read on where AI actually fits in</span>
+          <span class="title-accent">Titl's stack.</span>
+        </h1>
+        <p class="hero-sub">
+          Titl closed $2.5M in January from Cofounders Capital and FIT Ventures. The plan is Florida to twenty states by the end of 2026. The pipeline runs Google Gemini and OpenAI in parallel on every document, stored on Polymesh, priced at $299 a report. Under 5 minutes. 99.5% accuracy. Known.
+        </p>
+        <div class="stat-row">
+          <div class="stat-pill"><span class="stat-num">60</span><span class="stat-lbl">Code and database</span></div>
+          <div class="stat-pill"><span class="stat-num">30</span><span class="stat-lbl">Rule-based logic</span></div>
+          <div class="stat-pill"><span class="stat-num">10</span><span class="stat-lbl">Genuine AI reasoning</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pitch">
+      <div class="container">
+        <div class="pitch-grid">
+          <article class="pitch-body">
+            <p class="lede">
+              The question is which parts of the pipeline actually need an LLM, and which parts are traditional code, rules, or human QA wearing an AI hat.
+            </p>
+
+            <p>
+              Most teams in this position put LLMs where Postgres would do the job faster, cheaper, and with better guarantees. The 60/30/10 read is that 60% of Titl's work is code and database plumbing (county ingestion, schema normalization, API surface for lenders), 30% is rule-based logic (state statutes, ALTA best practice, lien release patterns), and 10% is genuine AI reasoning (handwriting OCR on messy stamps, ambiguous chain-of-title, fraud pattern detection). Getting that split right is the difference between a margin-healthy seed and a second round that has to cover inference bills.
+            </p>
+
+            <p>
+              TitlAlert has a separate shape. Watch, classify, escalate, notify, across thousands of parcels. At ten people, that system either gets a deliberate orchestration layer now or gets rebuilt at Series A for three times the cost.
+            </p>
+
+            <p>
+              We built a version of this conversation with Feeld. CTO-led, product company, trying to operationalize AI without hiring a head of AI. A scoped sprint. A workshop, a set of advisory calls, an Organizational Context Architecture, and a Strategic Operations Framework that their engineering team could run against for the next year.
+            </p>
+
+            <p>
+              The methodology behind it is <a href="https://github.com/RinDig/Interpretable-Context-Methodology-ICM-" target="_blank" rel="noopener">Interpretable Context Methodology (ICM)</a>, submitted to ACM TiiS. Folder structure as agent architecture. It gives Ray and the team a vocabulary and a structure for the ingestion pipeline that holds up from one state to twenty.
+            </p>
+
+            <p class="partner-note">
+              Eduba partners with <a href="https://www.nlplogix.com" target="_blank" rel="noopener">NLP Logix</a> for work that sits below the orchestration layer. NLP Logix has been in machine learning since 2011 and runs over 150 data scientists.
+            </p>
+          </article>
+
+          <aside class="proof-card">
+            <div class="proof-eyebrow">Scope reference</div>
+            <div class="proof-title">Feeld. CTO-led product company.</div>
+            <ul class="proof-list">
+              <li>Scoped sprint. Fixed deliverables.</li>
+              <li>Workshop with engineering and product.</li>
+              <li>Organizational Context Architecture.</li>
+              <li>Strategic Operations Framework the team runs against after we leave.</li>
+            </ul>
+            <div class="proof-divider"></div>
+            <div class="proof-eyebrow">Credibility</div>
+            <ul class="proof-list compact">
+              <li>1,500+ people trained across enterprise engagements since May 2025.</li>
+              <li>KPMG UK (Big Four): 40+ executives trained.</li>
+              <li>Jake Van Clief: Marine Corps veteran, MSc Future Governance (Edinburgh), published in ACM TiiS and on arXiv.</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container">
+        <div class="cta-card">
+          <div class="cta-left">
+            <div class="cta-eyebrow">Next step</div>
+            <h2 class="cta-title">30 minutes with Matt.</h2>
+            <p class="cta-sub">Matt Creamer, CRO at Eduba. Bring one county document that keeps breaking the pipeline.</p>
+          </div>
+          <a class="cta-button" href="https://calendly.com/thecro-eduba/30min" target="_blank" rel="noopener">Book the 30 minutes</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span class="footer-note">Prepared by Eduba. <a href="https://eduba.io" target="_blank" rel="noopener">eduba.io</a></span>
+      <span class="footer-meta">For titl.co. eMerge Americas Miami 2026, booth SS75.</span>
+    </div>
+  </footer>
+</body>
+</html>
